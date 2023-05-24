@@ -30,7 +30,6 @@ pipeline {
             }
         }
 
-<<<<<<< HEAD
 
       stage('SonarQube - SAST') {
             steps {
@@ -38,8 +37,7 @@ pipeline {
             }
         } 
 
-=======
->>>>>>> 0cf6a2209a513c56f3a698ea3a738cde85ea1e1b
+
       stage('Docker Build and push') {
             steps {
               withDockerRegistry([credentialsId: "docker-hub", url: ""]) {
