@@ -1,0 +1,9 @@
+fileignoreconfig:
+- filename: prueba_talisman2/password.txt
+  checksum: 368038b2ebd4687d9568793f1a8856fcd42d4d280350e24112326f12bcfa2ddf
+- filename: Jenkinsfile
+  checksum: 9c4c1d72598e2cb1a0c54f4701cb02c6ca50fa45fc3af76f2d68a11cece858a0
+- filename: prueba_talisman2/file3
+  checksum: 84c4df815ffeca4e45bc873ae37df5a0028df91b2650985d3b63e8aabe1397c9
+- filename: prueba_talisman2/file2
+  checksum: 083afd192f2f0dfa021273cd3c60e49d31f6ae4365051e4c41b8fccc84fae685
