@@ -7,3 +7,5 @@ fileignoreconfig:
   checksum: 84c4df815ffeca4e45bc873ae37df5a0028df91b2650985d3b63e8aabe1397c9
 - filename: prueba_talisman2/file2
   checksum: 083afd192f2f0dfa021273cd3c60e49d31f6ae4365051e4c41b8fccc84fae685
+- filename: Jenkinsfile
+  checksum: 653b319de2300685c028b7847588d86e786bae7555c0875a517e33cb36475634
