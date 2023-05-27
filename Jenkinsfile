@@ -13,7 +13,7 @@ pipeline {
             steps {
               sh "mvn test"
             }
-         /*    post {
+        /*    post {
               always {
                 junit 'target/surefire-reports/*.xml'
                 jacoco execPattern: 'target/jacoco.exec'
@@ -58,9 +58,7 @@ pipeline {
               }
             }
         }  
-
   
-
       stage('Kubernetes Deployment - DEV') {
             steps {
               withKubeConfig([credentialsId: 'kubeconfig']) {
@@ -69,7 +67,7 @@ pipeline {
               }
             }
         }     
-    }
+    
     post { 
         always { 
             junit 'target/surefire-reports/*.xml'
@@ -77,7 +75,7 @@ pipeline {
             pitmutation mutationStatsFile: '**/target/pit-reports/**/mutations.xml'
             dependencyCheckPublisher pattern: 'target/dependency-check-report.xml'
         }
-       /*  success {
+      /*  success {
 
         }
         failure {
